@@ -782,7 +782,7 @@ ON=@Death
 NEWITEM=i_fx_explode
 new.emotered explode
 act.TYPE=T_EXPLOSION
-act.ATTR=ATTR_MOVE_NEVER | ATTR_CAN_DECAY
+act.ATTR=ATTR_MOVE_NEVER | ATTR_DECAY 
 act.LINK=<uid>
 act.morex=10 // damage
 act.morey=090 // wFlags DAMAGE_GENERAL
